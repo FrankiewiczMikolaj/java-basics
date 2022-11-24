@@ -70,16 +70,29 @@ public class Main {
 //        }
         //endregion
         //region For loop
-//        System.out.println("Loop #1");
+//        System.out.println("For loop #1");
 //        for (int z = 0; z< 10; z++){
 //            System.out.println(z);
 //        }
-//        System.out.println("Loop #2");
+//        System.out.println("For loop #2");
 //        for (int i = 0, j = 10; i < 10; i++, j--){
 //            System.out.println(i);
 //            System.out.println(j);
 //            System.out.println();
 //        }
+        //endregion
+        //region While loop
+//        int i = 0;
+//        System.out.println("While loop #1");
+//        while (i < 10){
+//            System.out.println("i is less than 10");
+//            i++;
+//        }
+//        boolean isSunYellow = false;
+//        System.out.println("While loop #2");
+//        do{
+//            System.out.println("Sun is Yellow");
+//        }while (isSunYellow);
         //endregion
     }
 }

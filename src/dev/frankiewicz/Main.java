@@ -69,5 +69,17 @@ public class Main {
 //            System.out.println("Sky is not Blue");
 //        }
         //endregion
+        //region For loop
+//        System.out.println("Loop #1");
+//        for (int z = 0; z< 10; z++){
+//            System.out.println(z);
+//        }
+//        System.out.println("Loop #2");
+//        for (int i = 0, j = 10; i < 10; i++, j--){
+//            System.out.println(i);
+//            System.out.println(j);
+//            System.out.println();
+//        }
+        //endregion
     }
 }

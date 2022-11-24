@@ -94,5 +94,21 @@ public class Main {
 //            System.out.println("Sun is Yellow");
 //        }while (isSunYellow);
         //endregion
+        //region Break and continue statements
+//        System.out.println("For loop with break");
+//        for (int i = 0; i<10; i++){
+//            if (i == 4){
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+//        System.out.println("For loop with continue");
+//        for (int j = 0; j<10; j++){
+//            if (j == 4){
+//                continue;
+//            }
+//            System.out.println(j);
+//        }
+        //endregion
     }
 }

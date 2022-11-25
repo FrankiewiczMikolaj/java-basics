@@ -110,5 +110,8 @@ public class Main {
 //            System.out.println(j);
 //        }
         //endregion
+        //region FizzBuzz
+//        new FizzBuzz().FizzBuzzStart();
+        //endregion
     }
 }

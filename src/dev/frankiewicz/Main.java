@@ -1,5 +1,6 @@
 package dev.frankiewicz;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -121,6 +122,23 @@ public class Main {
 //                System.out.println("Buzz");
 //            } else {
 //                System.out.println(i);
+//            }
+//        }
+        //endregion
+        //region The second application - guessing the number drawn by the computer
+//        Random random = new Random();
+//        int numberToGuess = random.nextInt(100)+1;
+//        boolean wasNumberGuessed = false;
+//        while(!wasNumberGuessed){
+//            System.out.println("Enter a number");
+//            int userNumber = scanner.nextInt();
+//            if (userNumber < numberToGuess){
+//                System.out.println("Number is too low.");
+//            } else if (userNumber > numberToGuess) {
+//                System.out.println("Number is too high.");
+//            }else {
+//                System.out.println("Congratulations! You have guessed the number.");
+//                wasNumberGuessed = true;
 //            }
 //        }
         //endregion

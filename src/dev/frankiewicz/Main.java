@@ -142,5 +142,25 @@ public class Main {
 //            }
 //        }
         //endregion
+        //region Arrays
+        String[] names = new String[4];
+        names[0] = "Mariusz";
+        names[1] = "Dominik";
+        names[2] = "Kasia";
+        names[3] = "Asia";
+        for (int i = 0; i< names.length; i++){
+            System.out.println(names[i]);
+        }
+        names[2] = "Rafał";
+        System.out.println();
+        for (int i = 0; i< names.length; i++){
+            System.out.println(names[i]);
+        }
+        System.out.println();
+        String[] animals = {"dog","cat","turtle","elephant","lion"};
+        for (String animal : animals){
+            System.out.println(animal);
+        }
+        //endregion
     }
 }

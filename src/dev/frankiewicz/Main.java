@@ -1,7 +1,6 @@
 package dev.frankiewicz;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -143,24 +142,54 @@ public class Main {
 //        }
         //endregion
         //region Arrays
-        String[] names = new String[4];
-        names[0] = "Mariusz";
-        names[1] = "Dominik";
-        names[2] = "Kasia";
-        names[3] = "Asia";
-        for (int i = 0; i< names.length; i++){
-            System.out.println(names[i]);
+//        String[] names = new String[4];
+//        names[0] = "Mariusz";
+//        names[1] = "Dominik";
+//        names[2] = "Kasia";
+//        names[3] = "Asia";
+//        for (int i = 0; i< names.length; i++){
+//            System.out.println(names[i]);
+//        }
+//        names[2] = "Rafał";
+//        System.out.println();
+//        for (int i = 0; i< names.length; i++){
+//            System.out.println(names[i]);
+//        }
+//        System.out.println();
+//        String[] animals = {"dog","cat","turtle","elephant","lion"};
+//        for (String animal : animals){
+//            System.out.println(animal);
+//        }
+        //endregion
+        //region ArrayLists
+        List<String> names = new ArrayList<>();
+        names.add("Mariusz");
+        names.add("Dominik");
+        names.add("Błażej");
+        for(String name : names){
+            System.out.println(name);
         }
-        names[2] = "Rafał";
         System.out.println();
-        for (int i = 0; i< names.length; i++){
-            System.out.println(names[i]);
+        names.remove("Dominik");
+        for(String name : names){
+            System.out.println(name);
         }
         System.out.println();
-        String[] animals = {"dog","cat","turtle","elephant","lion"};
-        for (String animal : animals){
-            System.out.println(animal);
+        System.out.println(names.contains("Mariusz"));
+        System.out.println(names.contains("Kamil"));
+        System.out.println();
+        System.out.println(names.get(0));
+        System.out.println(names.isEmpty());
+        System.out.println();
+        Collections.sort(names);
+        for(String name : names){
+            System.out.println(name);
         }
+        names.clear();
+        for(String name : names){
+            System.out.println(name);
+        }
+        System.out.println(names.isEmpty());
         //endregion
     }
 }

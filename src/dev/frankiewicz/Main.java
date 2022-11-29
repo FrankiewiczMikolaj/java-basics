@@ -162,34 +162,44 @@ public class Main {
 //        }
         //endregion
         //region ArrayLists
-        List<String> names = new ArrayList<>();
-        names.add("Mariusz");
-        names.add("Dominik");
-        names.add("Błażej");
-        for(String name : names){
-            System.out.println(name);
+//        List<String> names = new ArrayList<>();
+//        names.add("Mariusz");
+//        names.add("Dominik");
+//        names.add("Błażej");
+//        for(String name : names){
+//            System.out.println(name);
+//        }
+//        System.out.println();
+//        names.remove("Dominik");
+//        for(String name : names){
+//            System.out.println(name);
+//        }
+//        System.out.println();
+//        System.out.println(names.contains("Mariusz"));
+//        System.out.println(names.contains("Kamil"));
+//        System.out.println();
+//        System.out.println(names.get(0));
+//        System.out.println(names.isEmpty());
+//        System.out.println();
+//        Collections.sort(names);
+//        for(String name : names){
+//            System.out.println(name);
+//        }
+//        names.clear();
+//        for(String name : names){
+//            System.out.println(name);
+//        }
+//        System.out.println(names.isEmpty());
+        //endregion
+        //region HashSet
+        Set<String> meals = new HashSet<>();
+        meals.add("Pizza");
+        meals.add("Pizza");
+        meals.add("Salad");
+        meals.add("Lasagne");
+        for(String meal : meals){
+            System.out.println(meal);
         }
-        System.out.println();
-        names.remove("Dominik");
-        for(String name : names){
-            System.out.println(name);
-        }
-        System.out.println();
-        System.out.println(names.contains("Mariusz"));
-        System.out.println(names.contains("Kamil"));
-        System.out.println();
-        System.out.println(names.get(0));
-        System.out.println(names.isEmpty());
-        System.out.println();
-        Collections.sort(names);
-        for(String name : names){
-            System.out.println(name);
-        }
-        names.clear();
-        for(String name : names){
-            System.out.println(name);
-        }
-        System.out.println(names.isEmpty());
         //endregion
     }
 }
